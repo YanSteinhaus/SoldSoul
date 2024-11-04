@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './componente/Header';
 import Postar from './pages/Postar/Postar';
-// import Perfil1 from './pages/Perfil1/'; 
-// import Perfil2 from './pages/Perfil2/';
 import Perfil from './pages/Perfil/Perfil';
 function App() {
     return (

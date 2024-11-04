@@ -1,0 +1,22 @@
+.header-container {
+    background-color: #000; /* Fundo preto para o cabeçalho */
+    padding: 10px;
+}
+
+.stories-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.story {
+    position: relative;
+    cursor: pointer;
+}
+
+.story-name {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: #ffcc00; /* Texto dourado */
+}

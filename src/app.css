@@ -1,13 +1,74 @@
-/* fundo preto */
-body, html, #root {
-    background-color: #000; 
-    color: #fff; 
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
+body {
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    font-family: 'Creepster', cursive; /* Fonte assustadora */
 }
-.App {
-    min-height: 100vh;
+
+.postar-container {
     padding: 20px;
+    border: 2px solid #ff0000; /* Borda vermelha */
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.2); /* Fundo vermelho transparente */
+    box-shadow: 0 0 10px #ff0000; /* Sombra vermelha */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+}
+
+input[type="file"] {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff0000; /* Botões vermelhos */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c70000; /* Hover mais escuro */
+}
+
+.likes {
+    margin-top: 10px;
+}
+
+.perfil-container {
+    padding: 20px;
+    border: 2px solid #ffcc00; /* Borda dourada */
+    border-radius: 10px;
+    background-color: rgba(255, 204, 0, 0.2); /* Fundo dourado transparente */
+    box-shadow: 0 0 10px #ffcc00; /* Sombra dourada */
+}
+
+.image-container {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.image-container img {
+    border: 2px solid #ffcc00; /* Borda dourada nas imagens */
+    border-radius: 10px;
+}
+
+.like-button {
+    background-color: transparent;
+    border: none;
+    color: #ffcc00; /* Cor dourada */
+    cursor: pointer;
+}
+
+.story-image {
+    border: 2px solid #ff0000; /* Borda vermelha nas imagens de amigos */
+    border-radius: 50%;
 }
